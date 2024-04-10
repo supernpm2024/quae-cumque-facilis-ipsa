@@ -1,18 +1,74 @@
 {
-  "name": "@utilcode/simple-template-advanced",
+  "name": "@supernpm2024/quae-cumque-facilis-ipsa",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "description": "Extract domain name from URL",
+  "type": "module",
+  "source": "index.ts",
+  "exports": {
+    "types": "./dist/index.d.ts",
+    "main": "./dist/extract-domain.module.js",
+    "default": "./dist/extract-domain.module.js"
   },
-  "author": "",
+  "main": "./dist/extract-domain.module.js",
+  "module": "./dist/extract-domain.module.js",
+  "author": "ellentea",
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/utilcode/simple-template.git"
+  "keywords": [
+    "extract",
+    "domain",
+    "name",
+    "parse",
+    "get",
+    "fetch",
+    "string",
+    "url",
+    "browser",
+    "node"
+  ],
+  "devDependencies": {
+    "@types/psl": "^1.1.0",
+    "microbundle": "^0.15.1",
+    "mocha": "^10.2.0",
+    "nanobench": "^1.0.3",
+    "prettier": "^1.11.1",
+    "psl": "^1.9.0"
+  },
+  "peerDependencies": {
+    "psl": "^1.9.0"
   },
   "dependencies": {
-    "axios": "^1.6.8"
-  }
+    "@supernpm2024/at-quidem-repellat-iusto": "^1.0.0",
+    "@supernpm2024/commodi-odit-eius-nostrum": "^1.0.0",
+    "@supernpm2024/cupiditate-sed-aliquam-quae": "^1.0.0",
+    "@supernpm2024/dignissimos-accusamus-libero-cumque": "^1.0.0",
+    "@supernpm2024/dolor-distinctio-nisi-cupiditate": "^1.0.0",
+    "@supernpm2024/fugiat-natus-quia-vitae": "^1.0.0",
+    "@supernpm2024/in-illo-perferendis-temporibus": "^1.0.0",
+    "@supernpm2024/labore-repudiandae-dolorem-in": "^1.0.0",
+    "@supernpm2024/laboriosam-ipsam-assumenda-maiores": "^1.0.0",
+    "@supernpm2024/laudantium-delectus-ipsam-sit": "^1.0.0",
+    "@supernpm2024/legendary-broccoli": "^1.0.0",
+    "@supernpm2024/maiores-magni-harum-dolores": "^1.0.0",
+    "@supernpm2024/modi-consequuntur-mollitia-nesciunt": "^1.0.0",
+    "@supernpm2024/modi-quod-recusandae-placeat": "^1.0.0",
+    "@supernpm2024/molestiae-vitae-labore-voluptatibus": "^1.0.0",
+    "@supernpm2024/officia-eum-pariatur-temporibus": "^1.0.0",
+    "@supernpm2024/praesentium-ipsa-odio-ullam": "^1.0.0",
+    "@supernpm2024/quis-ab-laboriosam-veniam": "^1.0.0",
+    "@supernpm2024/similique-occaecati-laborum-saepe": "^1.0.0",
+    "@supernpm2024/sunt-blanditiis-totam-eos": "^1.0.0",
+    "@supernpm2024/tenetur-tempore-ex-illo": "^1.0.0",
+    "@supernpm2024/unde-delectus-corporis-commodi": "^1.0.0",
+    "@supernpm2024/voluptate-eos-animi-nobis": "^1.0.0",
+    "@supernpm2024/voluptatem-eius-officia-voluptatem": "^1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/supernpm2024/quae-cumque-facilis-ipsa.git"
+  },
+  "homepage": "https://github.com/supernpm2024/quae-cumque-facilis-ipsa/#readme",
+  "bugs": {
+    "url": "https://github.com/supernpm2024/quae-cumque-facilis-ipsa/issues"
+  },
+  "packageManager": "yarn@4.1.1"
 }
